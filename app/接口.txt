@@ -1,0 +1,31 @@
+定位地址//：
+http://elm.cangdu.org/v1/cities?type=guess
+
+热门城市//：
+http://elm.cangdu.org/v1/cities?type=hot
+
+所有城市//：
+http://elm.cangdu.org/v1/cities?type=group
+
+搜索//：
+http://elm.cangdu.org/v1/pois?type=search&city_id=5&keyword=1
+
+分类//：
+http://elm.cangdu.org/v2/index_entry?geohash=39.0475,117.42993&group_type=1&flags[]=F
+参数：geohash：	39.0475,117.42993
+      group_type ： 1
+      flags[]：	F
+
+商品//:
+http://elm.cangdu.org/shopping/restaurants?latitude=39.0475&longitude=117.42993&offset=0&limit=20&extras[]=activities&keyword=&restaurant_category_id=&restaurant_category_ids[]=&order_by=&delivery_mode[]=
+参数：
+	latitude	39.0475
+	longitude	117.42993
+	offset	0
+	limit	20
+	extras[]	activities
+	keyword	
+	restaurant_category_id	
+	restaurant_category_ids[]	
+	order_by	
+	delivery_mode[]	
